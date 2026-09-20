@@ -1,0 +1,61 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: #070707 1px solid; 
+    height: 700px;
+    gap: 1px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+.box{  
+    flex-grow: 1;
+    height: 100%; 
+    min-width: 50%;
+    background-color: rgb(12, 16, 20); 
+    color: white;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    gap:10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+button{
+    min-width: 300px;
+    height: 44px;
+    background-color:#0064e0;
+    color: white;
+    border: none;
+    border-radius: 100px;
+}
+input{
+    min-width: 300px;
+    height: 44px;
+    color: rgb(39, 37, 37);
+    background-color: rgb(12, 16, 20);
+    border: 1px solid rgb(39, 37, 37);
+    padding-left: 16px;
+    border-radius: 4px;
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Helvetica', sans-serif;
+}
+.p-format{
+    linear-gradient(45deg, var(--gradient-orange), var(--gradient-purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 14px;
+    --gradient-orange: 255, 122, 0;
+    --gradient-purple: 118, 56, 250;
+}
+
+/*Research on media queries more for screen sizes*/
+
